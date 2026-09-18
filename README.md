@@ -1,6 +1,8 @@
-Library Management System
+## Library Management System
 
-Overview of the Project
+---
+
+## Overview of the Project
 
 The Library Management System is a lightweight, dependency-free desktop application built purely in Java. It allows library administrators to manage book inventories and member registries through a clean Graphical User Interface (GUI).
 
@@ -8,7 +10,7 @@ Instead of relying on heavy relational databases like MySQL or Oracle, this syst
 
 Screenshot Placeholder: (Once you upload to GitHub, replace this line with a screenshot of your app by dragging an image here!)
 
-Features
+## Features
 
 Book Management (CRUD):
 
@@ -26,7 +28,7 @@ Native Look and Feel: Utilizes the host operating system's native UI theme for a
 
 Auto-Initialization: Automatically generates the required database text files on the first run to prevent runtime crash errors.
 
-Technologies & Tools Used
+## Technologies & Tools Used
 
 Language: Core Java (JDK 8 or higher)
 
@@ -36,7 +38,7 @@ Storage/Database: Core Java File I/O (java.io.* - FileReader, FileWriter, Buffer
 
 Architecture: Object-Oriented Programming (OOP), Event-Driven UI
 
-Steps to Install & Run the Project
+## Steps to Install & Run the Project
 
 Prerequisites: Ensure you have the Java Development Kit (JDK) installed on your system. You can verify this by opening a terminal/command prompt and typing java -version.
 
@@ -51,7 +53,7 @@ java LibrarySystemGUI
 
 Note: The application window will open, and books.txt and members.txt will automatically be created in your root directory if they don't already exist.
 
-Instructions for Testing
+## Instructions for Testing
 
 To ensure the system works exactly as intended, perform the following manual tests in the GUI:
 
@@ -85,4 +87,4 @@ Action: Close the application completely. Re-run the application using java Libr
 
 Expected Result: The tables automatically populate with all the data you added during the previous session, proving File I/O persistence is fully functional.
 
-Author Kartikeya Mishra 25BAI11081
+Author Abhinav Singh 25BAI10303
