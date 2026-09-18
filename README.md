@@ -73,6 +73,8 @@ Testing Updates (Modify):
 
 Action: Click on the row containing "Clean Code" in the table. Click the "Update Selected" button. Enter a new title and author when prompted.
 
+---
+
 Expected Result: The table refreshes instantly with the newly modified data.
 
 Testing Deletion (Remove):
@@ -86,5 +88,7 @@ Testing Persistence:
 Action: Close the application completely. Re-run the application using java LibrarySystemGUI.
 
 Expected Result: The tables automatically populate with all the data you added during the previous session, proving File I/O persistence is fully functional.
+
+---
 
 Author Abhinav Singh 25BAI10303
