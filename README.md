@@ -57,7 +57,7 @@ Note: The application window will open, and books.txt and members.txt will autom
 
 To ensure the system works exactly as intended, perform the following manual tests in the GUI:
 
-Testing Storage Initialization:
+## Testing Storage Initialization:
 
 Action: Run the application for the very first time.
 
@@ -69,7 +69,7 @@ Action: In the "Manage Books" tab, enter 101 for ID, Clean Code for Title, and R
 
 Expected Result: The text fields clear out, and the new book immediately appears in the table below.
 
-Testing Updates (Modify):
+## Testing Updates (Modify):
 
 Action: Click on the row containing "Clean Code" in the table. Click the "Update Selected" button. Enter a new title and author when prompted.
 
@@ -77,13 +77,13 @@ Action: Click on the row containing "Clean Code" in the table. Click the "Update
 
 Expected Result: The table refreshes instantly with the newly modified data.
 
-Testing Deletion (Remove):
+## Testing Deletion (Remove):
 
 Action: Select a book or member from their respective tables and click "Delete Selected".
 
 Expected Result: The row disappears from the GUI table and is removed from the underlying .txt file.
 
-Testing Persistence:
+## Testing Persistence:
 
 Action: Close the application completely. Re-run the application using java LibrarySystemGUI.
 
@@ -91,4 +91,4 @@ Expected Result: The tables automatically populate with all the data you added d
 
 ---
 
-Author Abhinav Singh 25BAI10303
+## Author Abhinav Singh 25BAI10303
